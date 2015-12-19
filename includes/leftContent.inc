@@ -13,7 +13,7 @@
 				<a target="_top" style="border: 0 none;" href="http://www.gofundme.com/b1zte0?utm_medium=wdgt" title="Visit this page now."><img style="border: 0 none;" src="http://funds.gofundme.com/css/3.0_donate/mint/widget.png" style="width:100%;"></a>
 			</li>
 		<ul>
-	-->	
+	-->
 
 <!-- Begin MailChimp Signup Form -->
 	<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
@@ -33,5 +33,5 @@
 </div>
 
 <!--End mc_embed_signup-->
-	<?php include "/content/pages/updates.php" ?>
-	<p style="text-align:center;"><a target="_top" style="border: 0 none;" href="http://www.gofundme.com/b1zte0?utm_medium=wdgt" title="Visit this page now."><img style="border: 0 none;" src="http://funds.gofundme.com/css/3.0_donate/mint/widget.png" style="width:100%;"></a></p>
+	<?php include "/content/pages/updates.php"; ?>
+	<!-- <p style="text-align:center;"><a target="_top" style="border: 0 none;" href="http://www.gofundme.com/b1zte0?utm_medium=wdgt" title="Visit this page now."><img style="border: 0 none;" src="http://funds.gofundme.com/css/3.0_donate/mint/widget.png" style="width:100%;"></a></p> -->
