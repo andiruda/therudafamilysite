@@ -2,7 +2,7 @@
 <?php include "includes/stdHeaderEnd.inc"; ?>
 <?php include "includes/header.inc"; ?>
 
-<?php 
+<?php
 	$pgContent = $_GET["content"];
 	$n = $_GET["n"];
 ?>
@@ -63,21 +63,21 @@
 			<?php
 						if($n = ""){
 							if($pgContent != ""){
-								include "content/pages/".$pgContent.".php";
+								include "/content/pages/".$pgContent.".php";
 							}else{
 								include "index.php";
 							}
 						}else{
-							include "content/".$pgContent."/".$n.".php";
+							include "/content/".$pgContent."/".$n.".php";
 						}
 			?>
 		</div>
 	</div>
 	<div id="mobileWidthFooter">
-	
+
 <?php include "includes/leftContent.inc"; ?> </div>
 </div>
 
 
-	
+
 <!-- php include "includes/footer.inc"; -->
