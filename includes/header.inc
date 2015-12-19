@@ -1,10 +1,10 @@
 <div id="header">
-	<img src="/andiruda/blog/images/Newsletter-Header-YWAM-Chico-header.jpg" />
+	<img src="/images/Newsletter-Header-YWAM-Chico-header.jpg" />
 </div>
 
 <div id="navBar">
 	<a id="logo">
-		<img src="/andiruda/blog/images/Ruda-Brand-Logo.png" />
+		<img src="/images/Ruda-Brand-Logo.png" />
 	</a>
 	<ul class="nav medWidth">
 		<li>
@@ -58,4 +58,3 @@
 		</li>
 	</ul>
 </div>
-
