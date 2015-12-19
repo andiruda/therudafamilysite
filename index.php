@@ -1,5 +1,5 @@
 	<h1>The Ruda Family Blog</h1>
-	<img class="widthSpanImg right" src="http://therudafamily.com/images/isaac-standing-YWAM-sign-2.jpg"  />
+	<img class="widthSpanImg right" src="/images/isaac-standing-ywam-sign-2.jpg"  />
 	<p itemscope itemtype="http://data-vocabulary.org/Person">
 		Welcome to <span itemprop="name">The Ruda Family</span> Blog. Our story is a unique weave of toxic mold, living tiny and our faith moving us into Missions. This blog is a combination of the three, mainly because that’s who we are. We can’t really separate them.
 	</p>
