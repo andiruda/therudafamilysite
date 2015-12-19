@@ -1,0 +1,205 @@
+/*** CSS Document ***/
+/** 
+	Colors
+	#8dfc8b - green in title
+	#000 - black for fonts
+
+**/	
+@font-face {font-family: lilly;src: url(/images/lilly.ttf);}
+
+
+/** General Styles **/
+body {
+	background:azure;
+	padding:0;
+	margin:0; 
+	font:12px;
+	color:#000;
+	font-family:Ubuntu,lilly;
+}
+#Content img, #ContentMed img, #ContentMobile img {margin:5px;}
+.clearall {clear:both; display:block; width:100%; font:.1em/.1em Verdana, Arial, Helvetica, sans-serif;}
+.right {float:right;display:inline;}
+.left {float:left;display:inline;}
+.important {color:red;}
+.addressBlock {font-weight:bolder;font-size:15px;color:#555555;padding-left:5%;}
+.image-gallery {display:block;}
+.image-gallery li {	display:inline-block;	width:33%;}
+.image-gallery img {width:100%;}
+p {	
+	margin:10 15px;
+	text-align:left;
+	}
+ul {list-style:none;margin:0;padding:0;}
+a {text-decoration:none;color:#B43C3C;}
+h1 {margin-top:0px;padding-top:20px;}
+.quote {margin-left: 25px;font-size: 11px;font-color:grey;}
+.widthSpanImg {width:50%;}
+.siting {
+	font-size:10px;
+	color:grey;
+	font-weight:bolder;
+	line-height:50px;
+}
+.scripture {font-size:13px;width:80%;text-align:center;margin:0 auto;color:rgb(184, 152, 24);}
+span.caption {width:40%;margin:0 15px;border-bottom:grey 1px solid;font-size:12px;padding-bottom:5px;}
+
+
+/** Header Styles **/
+#header {display:block;}
+#header > img {width:100%;}
+
+#navBar {
+	display:block;
+	position:relative;
+	background-color:black;
+	height:50px;
+}
+
+#logo {
+	position:absolute;
+	width: 23%;
+	z-index:999;
+}
+#logo img {width:90%;margin:7% auto;display:block;max-width:230px;}
+
+/** Nav Styles **/
+.nav li:hover {background-color:red;}
+
+.nav {
+	display:inline-block;
+	float:right;
+	margin-right:2%;
+	color:#fff;
+	font-size:1.0em;
+	font-family: Lato, sans-serif;
+}
+.nav li {
+	float:left; 
+	display:inline-block;
+}
+.nav li a {
+	display:block;
+	padding: 14px 8px;
+	color:white;
+}
+.nav.smallWidth,.nav.smallWidth .subNav, #ContentMed, #ContentMobile {display:none;}
+#menuButton {font-size:1.7em;}
+
+@media (max-width: 780px) {
+	.nav.medWidth, #lftContent, #rghtContent, #Content, #ContentMed {display:none!important;}
+	#ContentMobile {display:block;}
+	.widthSpanImg {width:100%;}
+	#logo {
+		width:40px;
+		margin:1% 0 0 1%;
+		float:left;	
+	}
+	.nav.smallWidth {display:inline-block;margin:0px;float:right;color:#fff;}
+	.nav.smallWidth li {display:inline-block;float:right;}
+	.nav.smallWidth li a {padding:7px 8px;text-align:center;}
+	/*#Content {padding-left:10px;}*/
+}
+
+@media (max-width: 1272px) {
+	#Content {display:none;}
+	#ContentMed {display:block;}
+}
+
+.nav.smallWidth li {width:120px;position:relative;}
+.nav.smallWidth li:hover .subNav {display:block;width:120px;position:absolute;top:49px;left:0px;}
+.subNav {position:absolute;z-index:999;}
+.subNav li {display:inline-block;background:red;}
+.subNav li:hover {background-color:black;}
+
+#homePagePop {display:none;}
+
+/** Body **/
+#leftContent a {color:#fff;}
+#leftContent a:hover {color:azure;}
+#Content h2, #Content h3 {margin-top: 0px;padding-top: 15px;}
+#Content h4 {
+	/*text-align:center;*/
+	padding:5px 0px;
+	/*border-top:1px solid #000;
+	border-bottom:1px solid #000;*/
+	display:block;
+}
+#Content .newsImage {box-shadow:2px 2px 8px 1px #000;}
+#leftContent li {margin-bottom:35px;}
+#rghtContent {display:inline-block;min-width:175px;width:20%;float:right;padding:10px;margin-left:20px;background-color:#fff;}
+#rghtContent iframe {margin:10px;display:inline-block;}
+
+.articlesDate {margin-left: 25px;font-size: 11px;}
+.articlesLink {text-transform:capitalize;}
+
+.container3 {
+	float: left;
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	position: relative;
+}
+.container2 {
+    float: left;
+	width: 100%;
+	background: azure;
+	position: relative;
+	right: 22%;
+}
+.container1 {
+	float: left;
+	width: 100%;
+	background: black;
+	position: relative;
+	right: 57%;
+}
+.col1 {
+	float: left;
+	width: 18%;
+	position: relative;
+	left: 81%;
+	overflow: hidden;
+	color: #fff;
+	padding-top: 14%;
+}
+.col2 {
+	float: left;
+	width: 55%;
+	position: relative;
+	left: 83%;
+	overflow: hidden;
+}
+.col3 {
+	float: left;
+	width: 20%;
+	position: relative;
+	left: 85%;
+	overflow: hidden;
+}
+
+#ContentMed .container2 {
+	right:0%;
+}
+#ContentMed .container1 {
+	right:77%;
+}
+#ContentMed .col2 {
+	width:75%;
+	left:83%;
+}
+#ContentMed .col1 {
+	width:18%;
+	left:79%;
+}
+
+#ContentMobile .container2 {
+	right:0%;
+}
+#ContentMobile .col2 {
+	width:96%;
+	left:2%;
+}
+#mobileWidthFooter {background-color:#000;color:#fff;padding:2%;}
+
+#newsletterSignup {width:100%;}

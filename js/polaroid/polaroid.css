@@ -1,0 +1,119 @@
+/*** Polaroid Styling ***/
+/** Give any photo the CLASS name "palaroid" **/
+
+@font-face {font-family:awesome_font;src:url('images/maft.ttf');}
+
+ ul.polaroidsstyle1, ul.polaroidsstyle2 
+	{ 
+	width: 100%; 
+	margin: 35px 0 35px -30px;
+	display:block; 
+	}
+
+
+ul.polaroidsstyle1 li, ul.polaroidsstyle2 li 
+	{ 
+	position: relative;
+	overflow:hidden;
+	} 
+		
+
+ul.polaroidsstyle1 li:hover, ul.polaroidsstyle2 li:hover 
+	{ 
+	-webkit-transform: scale(1.25)!important; 
+	-moz-transform: scale(1.25) !important; 
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5)!important; 
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.5)!important; 
+	} 
+		
+
+
+ul.polaroidsstyle1 li 
+	{ 
+
+	background: url(images/polaroid-blank.png) no-repeat top center transparent;
+	background-size:100%; 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/polaroid-blank.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/polaroid-blank.png',sizingMethod='scale')";
+
+	display: inline; 
+	float: left; 
+	margin: 0 0 27px 30px; 
+	width: auto; 
+	text-align: center; 
+	font-family: awesome_font,sans-serif; 
+	text-decoration: none; 
+	color: #333; 
+	font-size: 13px; 
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+	/*-webkit-transform: rotate(-2deg);*/ 
+	/*-webkit-transition: -webkit-transform .15s linear; */
+/*	-moz-transform: rotate(-2deg); 
+*/	
+	/* setting the movement */
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all  0.3s ease-in-out;
+	transition: all 0.3s ease-in-out; 
+	}
+
+
+
+ul.polaroidsstyle2 li 
+	{ 
+	background: url(images/polaroid-blank2.jpg) no-repeat top center transparent;
+	background-size:100%; 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/polaroid-blank2.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/polaroid-blank2.jpg',sizingMethod='scale')";
+	display: inline; 
+	float: left; 
+	margin: 0 0 27px 30px; 
+	width: auto; 
+	text-align: center; 
+	font-family: awesome_font,sans-serif; 
+	text-decoration: none; 
+	color: #333; 
+	font-size: 13px; 
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+	/*-webkit-transform: rotate(-2deg); 
+	-moz-transform: rotate(-2deg); */
+	
+	/* setting the movement */
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all  0.3s ease-in-out;
+	transition: all 0.3s ease-in-out; 
+	}
+
+ul.polaroidsstyle1 div, ul.polaroidsstyle2 div
+	{
+	box-shadow:inset 0px 0px 15px 3px #000;
+	display: block; 
+	margin: 3px 3px 12px 3px;
+	background:top center no-repeat; 
+	}
+	
+ul.polaroidsstyle1 div:after
+	{
+	conent: attr(title);
+	}
+
+ul.polaroidsstyle1 li:after
+	{ 
+	content: attr(title); 
+	}
+
+
+
+#test {
+	width:115px;
+	height:120px;
+	background:url(/images/pikespeak-hd-service-pete.jpg) top center no-repeat transparent;
+	box-shadow:inset 0 0 15px 3px #000;
+	}		
+
+
+        
+        
