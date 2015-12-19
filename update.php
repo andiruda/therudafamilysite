@@ -6,4 +6,4 @@
   //exec("whoami 2>&1",$response);
 
 ?>
-  <h2><?php echo $response[0] ?></h2>
+  <h2><?php echo join('<br>', $response[0]) ?></h2>
