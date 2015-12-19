@@ -22,9 +22,11 @@
 		<li>
 			<a href="/default.php?content=comingsoon">MISSONS</a>
 		</li>
+		<!--
 		<li>
 			<a href="/default.php?content=give">GIVE</a>
 		</li>
+		-->
 		<li>
 			<a href="/default.php?content=archive">ARCHIVE</a>
 		</li>
