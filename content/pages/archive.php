@@ -1,5 +1,6 @@
 
 <script>
+/*
 var articles = {}
 var ajaxObj = $.ajax({
 		url:'/src/includes/sharedStdLib.asp?req=dirlist',
@@ -9,11 +10,11 @@ var ajaxObj = $.ajax({
 		ajaxObj.done(function(data){
 			buildArticlesList(data);
 		})
-		
+
 		ajaxObj.fail(function(data){
 			console.log("failed")
 		})
-
+*/
 </script>
 
 <h1>Articles</h1>
