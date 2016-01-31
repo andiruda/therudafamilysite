@@ -61,15 +61,15 @@
 	<div class="container2">
 		<div class="col2">
 			<?php
-						if($n = ""){
-							if($pgContent != ""){
-								include "/content/pages/".$pgContent.".php";
-							}else{
-								include "index.php";
-							}
-						}else{
-							include "/content/".$pgContent."/".$n.".php";
-						}
+				if($n == ""){
+					if($pgContent != ""){
+						include "content/pages/".$pgContent.".php";
+					}else{
+						include "index.php";
+					}
+				}else{
+					include "content/".$pgContent."/".$n.".php";
+				}
 			?>
 		</div>
 	</div>
