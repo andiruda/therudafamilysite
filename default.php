@@ -40,15 +40,15 @@
 			<div class="col1"><?php include "includes/leftContent.inc"; ?></div>
 			<div class="col2">
 				<?php
-						if($n = ""){
-							if($pgContent != ""){
-								include "content/pages/".$pgContent.".php";
-							}else{
-								include "index.php";
-							}
+					if($n == ""){
+						if($pgContent != ""){
+							include "content/pages/".$pgContent.".php";
 						}else{
-							include "content/".$pgContent."/".$n.".php";
+							include "index.php";
 						}
+					}else{
+						include "content/".$pgContent."/".$n.".php";
+					}
 				?>
 			</div>
 		</div>
