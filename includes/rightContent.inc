@@ -1,8 +1,8 @@
 <!--<div id="rghtContent">-->
-	<h3>SUPPORT</h3>
+	<!--<h3>SUPPORT</h3>
 	<p style="text-align:center;">
 		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="258" height="338" title="Click Here to donate!" type="application/x-shockwave-flash"><param name="movie" value="//funds.gofundme.com/Widgetflex.swf" /><param name="quality" value="high" /><param name="flashvars" value="page=b1zte0&template=1" /><param name="wmode" value="transparent" /><embed allowScriptAccess="always" src="//funds.gofundme.com/Widgetflex.swf" quality="high" flashVars="page=b1zte0&template=1" type="application/x-shockwave-flash" wmode="transparent" width="258" height="338"></embed></object>
-	</p>
+	</p>-->
 	<h3>HEALTH</h3>
 	<p>
 		<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=andirudacom-20&marketplace=amazon&region=US&placement=B00068GKC8&asins=B00068GKC8&linkId=77JV2QUDCLLURNR4&show_border=true&link_opens_in_new_window=true"></iframe>
