@@ -3,11 +3,11 @@
 		<ul id="leftContent">
 			<li>
 				<img class="newsImage" src="images/ywam-chico-entrance-sign.jpg" style="display:block;" width="100" />
-				<a href="/default.php?content=newsletter&n=may-2014">The Ruda Journal: May 2014</a>
+				<a href="/index.php?content=newsletter&n=may-2014">The Ruda Journal: May 2014</a>
 			</li>
 			<li>
 				<img class="newsImage" src="images/thumbs/journal-update-thumb2.jpg" style="display:block;" width="100" />
-				<a href="/default.php?content=newsletter&n=june-2014">The Ruda Journal: June 2014</a>
+				<a href="/index.php?content=newsletter&n=june-2014">The Ruda Journal: June 2014</a>
 			</li>
 			<li>
 				<a target="_top" style="border: 0 none;" href="http://www.gofundme.com/b1zte0?utm_medium=wdgt" title="Visit this page now."><img style="border: 0 none;" src="http://funds.gofundme.com/css/3.0_donate/mint/widget.png" style="width:100%;"></a>

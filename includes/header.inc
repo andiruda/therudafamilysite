@@ -11,24 +11,24 @@
 			<a href="/">HOME</a>
 		</li>
 		<li>
-			<a href="/default.php?content=our-story">OUR STORY</a>
+			<a href="/index.php?content=our-story">OUR STORY</a>
 		</li>
 		<li>
-			<a href="/default.php?content=mold-help">MOLD HELP</a>
+			<a href="/index.php?content=mold-help">MOLD HELP</a>
 		</li>
 		<li>
-			<a href="/default.php?content=living-tiny">LIVING TINY</a>
+			<a href="/index.php?content=living-tiny">LIVING TINY</a>
 		</li>
 		<li>
-			<a href="/default.php?content=comingsoon">MISSONS</a>
+			<a href="/index.php?content=comingsoon">MISSONS</a>
 		</li>
 		<!--
 		<li>
-			<a href="/default.php?content=give">GIVE</a>
+			<a href="/index.php?content=give">GIVE</a>
 		</li>
 		-->
 		<li>
-			<a href="/default.php?content=archive">ARCHIVE</a>
+			<a href="/index.php?content=archive">ARCHIVE</a>
 		</li>
 	</ul>
 	<ul class="nav smallWidth">
@@ -39,22 +39,22 @@
 					<a href="/">HOME</a>
 				</li>
 				<li>
-					<a href="/default.php?content=our-story">OUR STORY</a>
+					<a href="/index.php?content=our-story">OUR STORY</a>
 				</li>
 				<li>
-					<a href="/default.php?content=mold-help">MOLD HELP</a>
+					<a href="/index.php?content=mold-help">MOLD HELP</a>
 				</li>
 				<li>
-					<a href="/default.php?content=living-tiny">LIVING TINY</a>
+					<a href="/index.php?content=living-tiny">LIVING TINY</a>
 				</li>
 				<li>
-					<a href="/default.php?content=comingsoon">MISSONS</a>
+					<a href="/index.php?content=comingsoon">MISSONS</a>
 				</li>
 				<li>
-					<a href="/default.php?content=give">GIVE</a>
+					<a href="/index.php?content=give">GIVE</a>
 				</li>
 				<li>
-					<a href="/default.php?content=archive">ARCHIVE</a>
+					<a href="/index.php?content=archive">ARCHIVE</a>
 				</li>
 			</ul>
 		</li>
